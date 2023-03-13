@@ -1,0 +1,2 @@
+i686-w64-mingw32-gcc.exe -m32 -std=c++11 -o xpfix.exe xpfix.o -lkernel32 -luser32 -ladvapi32 -lshell32 -static -static-libgcc -static-libstdc++ -lstdc++
+i686-w64-mingw32-gcc.exe -m32 -c -std=c++11 -o xpfix.o .\xpfix.cpp
